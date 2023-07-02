@@ -134,3 +134,20 @@ library.addBook(magazineSherlock);
 library.addBook(detective);
 
 console.log(library);
+
+//Task 3 journal
+
+class Student {
+    constructor(name) {               
+        this.name = name;
+        this.evaluations = {};                
+    }
+
+    addMarks(...marks) {
+        if (this.evaluations('физика') && this.evaluations !== []) {
+            this.marks.push(...marks);
+        } else {
+        return 0;
+        }
+    }
+}
